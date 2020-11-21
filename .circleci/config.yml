@@ -10,5 +10,5 @@ jobs:
       - checkout
       - run:
           name: "Run tests"
-          command: ./mvnw test
+          command: sh mvnw test
           when: always
